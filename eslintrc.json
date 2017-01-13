@@ -1,0 +1,23 @@
+{
+    "env":{
+        "browser":true,
+        "node":true,
+        "mocha":true,
+        "commonjs":true
+    },
+    "parserOptions": {
+        "ecmaVersion" : 8,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true
+        }
+    },
+    "plugins" : [
+        "html"
+    ],
+    "extends": "eslint:recommended",
+    "rules" : {
+        "indent" : [1,4],
+        "no-console" : [1]
+    }
+}

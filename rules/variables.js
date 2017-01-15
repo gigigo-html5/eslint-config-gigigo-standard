@@ -6,7 +6,7 @@ module.exports = {
         'no-label-var'               : 2,
         'no-restricted-globals'      : 0,
         'no-shadow-restricted-names' : 2,
-        'no-shadow'                  : 2,
+        'no-shadow'                  : 0,
         'no-undef-init'              : 2,
         'no-undef'                   : 2,
         'no-undefined'               : 0,

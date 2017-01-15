@@ -2,9 +2,9 @@ module.exports = {
     'rules': {
         'arrow-body-style'        : 0,
         'arrow-parens'            : 0,
-        'arrow-spacing'           : 1,
+        'arrow-spacing'           : 0,
         'constructor-super'       : 2,
-        'generator-star-spacing'  : 1,
+        'generator-star-spacing'  : 0,
         'no-class-assign'         : 2,
         'no-confusing-arrow'      : ['error', {
                                         allowParens: true,
@@ -44,6 +44,6 @@ module.exports = {
         'sort-imports'            : 0,
         'symbol-description'      : 0,
         'template-curly-spacing'  : 0,
-        'yield-star-spacing'      : [1,'after']
+        'yield-star-spacing'      : 0
     }
 };

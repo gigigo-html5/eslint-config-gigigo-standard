@@ -1,7 +1,7 @@
 module.exports = {
     'rules': {
         'callback-return'       : 0,
-        'global-require'        : 2,
+        'global-require'        : 0,
         'handle-callback-err'   : 0,
         'no-mixed-requires'     : 0,
         'no-new-require'        : 0,

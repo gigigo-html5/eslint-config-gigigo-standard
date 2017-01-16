@@ -20,7 +20,7 @@ module.exports = {
         'id-blacklist'                  : 0,
         'id-length'                     : 0,
         'id-match'                      : 0,
-        'indent'                        : [1,4],
+        'indent'                        : [1,4,{SwitchCase:1}],
         'jsx-quotes'                    : 0,
         'key-spacing'                   : 0,
         'keyword-spacing'               : 0,

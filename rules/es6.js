@@ -23,13 +23,8 @@ module.exports = {
                                         ignoreExport: false,
                                     }],
         'no-var'                  : 1,
-        'object-shorthand'        : [1, 'always', {
-                                        ignoreConstructors: false,
-                                        avoidQuotes: true,
-                                    }],
-        'prefer-arrow-callback'   : [1,{
-                                        allowNamedFunctions:true
-                                    }],
+        'object-shorthand'        : 0,
+        'prefer-arrow-callback'   : 0,
         'prefer-const'            : 0,
         'prefer-destructuring'    : 0,
         'prefer-numeric-literals' : 0,

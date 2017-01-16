@@ -30,14 +30,11 @@ module.exports = {
         'prefer-arrow-callback'   : [1,{
                                         allowNamedFunctions:true
                                     }],
-        'prefer-const'            : [1,{
-                                        destructuring: 'any',
-                                        ignoreReadBeforeAssign: true
-                                    }],
+        'prefer-const'            : 0,
         'prefer-destructuring'    : 0,
-        'prefer-numeric-literals' : 1,
+        'prefer-numeric-literals' : 0,
         'prefer-rest-params'      : 0,
-        'prefer-spread'           : 1,
+        'prefer-spread'           : 0,
         'prefer-template'         : 0,
         'require-yield'           : 0,
         'rest-spread-spacing'     : 0,

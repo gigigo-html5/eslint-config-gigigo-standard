@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-gigigo-standard",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Gigigo ESLint standard config",
   "main": "./index.js",
   "dependencies": {
@@ -14,7 +14,7 @@
   "scripts": {
     "test": "mocha"
   },
-    "repository": {
+  "repository": {
     "type": "git",
     "url": "git+https://github.com/gigigo-html5/eslint-config-gigigo-standard.git"
   },

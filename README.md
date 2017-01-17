@@ -26,8 +26,15 @@ npm install eslint-config-gigigo-standard
 Then, add this to your .eslintrc file:
 
 ```json
+
+//With babel transpiling (browser or node)
 {
   "extends": "gigigo-standard"
+}
+
+//Only node (no transpiling)
+{
+  "extends": "gigigo-standard/node"
 }
 ```
 

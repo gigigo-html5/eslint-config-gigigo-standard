@@ -6,7 +6,7 @@ An ESLint [Shareable Config](http://eslint.org/docs/developer-guide/shareable-co
 ## Install
 
 ```sh
-npm install eslint-config-gigigo-standard
+npm install eslint-config-gigigo
 ```
 
 
@@ -20,7 +20,7 @@ official ESLint website.
 To use the JavaScript Gigigo Standard Style shareable config, first run this:
 
 ```sh
-npm install eslint-config-gigigo-standard
+npm install eslint-config-gigigo
 ```
 
 Then, add this to your .eslintrc file:
@@ -29,12 +29,12 @@ Then, add this to your .eslintrc file:
 
 //With babel transpiling (browser or node)
 {
-  "extends": "gigigo-standard"
+  "extends": "gigigo"
 }
 
 //Only node (no transpiling)
 {
-  "extends": "gigigo-standard/node"
+  "extends": "gigigo/node"
 }
 ```
 

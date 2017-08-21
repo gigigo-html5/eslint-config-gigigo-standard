@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-gigigo",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Gigigo ESLint standard config",
   "main": "./index.js",
   "dependencies": {

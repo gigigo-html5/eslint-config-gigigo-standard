@@ -6,7 +6,7 @@ module.exports = {
         "commonjs":true
     },
     "parserOptions": {
-        "ecmaVersion" : 7,
+        "ecmaVersion" : 8,
         "sourceType": "script"
     },
     'extends': [
